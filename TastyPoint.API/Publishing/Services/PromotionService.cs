@@ -78,6 +78,9 @@ public class PromotionService : IPromotionService
         existingPromotion.Title = promotion.Title;
         existingPromotion.SubTitle = promotion.SubTitle;
         existingPromotion.Description = promotion.Description;
+        existingPromotion.Quantity = promotion.Quantity;
+        existingPromotion.ExpirationDate = promotion.ExpirationDate;
+        existingPromotion.EntryDate = promotion.EntryDate;
         existingPromotion.Image = promotion.Image;
 
         try
