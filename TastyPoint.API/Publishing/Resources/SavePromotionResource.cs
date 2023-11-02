@@ -19,12 +19,5 @@ public class SavePromotionResource
     public string? Image { get; set; }
     
     [Required]
-    public int Quantity { get; set; }
-    
-    public string? EntryDate { get; set; }
-    
-    public string? ExpirationDate { get; set; }
-    
-    [Required]
     public int UserProfileId { get; set; }
 }
